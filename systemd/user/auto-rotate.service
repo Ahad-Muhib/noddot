@@ -1,0 +1,11 @@
+[Unit]
+Description=Auto Rotate Screen (Tablet Mode)
+After=graphical-session.target
+
+[Service]
+ExecStart=%h/.config/hypr/scripts/auto-rotate.sh
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=default.target
