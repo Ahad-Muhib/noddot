@@ -10,7 +10,7 @@ My Arch Linux + Hyprland setup
 
 ## Setup
 ```bash
-git clone https://github.com/yourname/noddot.git
+git clone https://github.com/Ahad-Muhib/noddot.git
 cd noddot
 chmod +x install.sh
 ./install.sh
