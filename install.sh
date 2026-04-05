@@ -12,3 +12,4 @@ systemctl --user daemon-reload
 systemctl --user enable auto-rotate.service
 
 echo "Setup complete!"
+cp -r kitty ~/.config/
